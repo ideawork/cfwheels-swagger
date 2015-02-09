@@ -1,0 +1,65 @@
+<style>
+
+.swagger-section a:hover {
+  background:#fff !important;
+}
+
+.swagger-section ul {
+  margin:0!important;
+}
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource div.heading ul.options {
+  margin:6px 10px 0 0!important;
+}
+
+ul.tabs {
+  margin:0 !important;
+  padding:0 0 0 10px;
+  height:24px;
+  border-bottom:1px solid #666;
+}
+
+/* single tab */
+ul.tabs li {
+  float:left;
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+/* link inside the tab */
+ul.tabs a {
+  border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  float:left;
+  font-size:13px;
+  display:block;
+  padding:2px 20px!important;
+  text-decoration:none;
+  border:1px solid #666;
+  border-bottom:0px;
+  height:18px;
+  background-color:#efefef;
+  color:#777;
+  margin-right:2px;
+  position:relative;
+  top:1px;
+  text-decoration:none!important;
+}
+
+ul.tabs a:hover {
+  color:#333;
+}
+
+/* selected tab */
+ul.tabs a.selected {
+  background-color:#fff;
+  border-bottom:2px solid #fff;
+  color:#333;
+  cursor:default;
+}
+
+textarea { width:480px; }
+
+</style>
